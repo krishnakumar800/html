@@ -1,0 +1,196 @@
+<html>
+    <head>
+        <title>employee details</title>
+    </head>
+    <body>
+        <center>
+            <h1>New Employee Details Form</h1>
+        </center>
+       <hr>
+        <h1>Personal Details</h1>
+        <form>
+           <table cellpadding="6" cellspacing="2">
+             <tr>
+             <td><label for="">Your Name</label></td>
+             <td><select name="title" id="title">
+                <option value=""></option>
+                <option value="">MR</option>
+                <option value="">MISS</option>
+             </select><br>
+            <label for="">Title</*label></td>
+            <td> <input type="text" placeholder="first name" name="firstname" id="firstname" required><br>
+            <label for="">Enter first name</label></td>
+            <td><input type="text" placeholder="middle name" name="middlename" id="middlename" required><br>
+                <label for="">Enter middle name</label></td>
+            <td> <input type="text" placeholder="surname" name="surname" id="surname" required><br>
+                <label for="">Enter SurName</label>        
+            </td>
+             </tr>
+             <tr>
+                <td><label for="">Gender:</label></td>
+                <td><input type="radio" value="male" id="male" name="gender">
+                   <label for="">Male</label>   
+                   <input type="radio" value="female" id="female" name="gender">
+                   <label for="">female</label></td>
+             </tr>
+             <tr>
+                <td><label for="">birthdate</label></td>
+                <td><input type="datetime" name="birthdate" id="birthdate"></td>
+             </tr>
+             <tr>
+                <td><label for="">Address</label></td>
+                <td><textarea name="streetaddress" id="streetaddress" cols="30" rows="2" required></textarea><br>
+                <label for="">street address</label></td>
+                <td><textarea name="streetaddressline" id="streetaddressline" cols="30" rows="2" required></textarea><br>
+                    <label for="">street address line2</label></td>
+             </tr>
+             <tr>
+                <td></td>
+                <td><input type="text" name="suburb" id="suburb"><br>
+                <label for="">suburb</label></td>
+                <td><input type="text" name="state" id="state"><br>
+                <label for="">state</label></td>
+                <td><input type="text" name="postcode" id="postcode"><br>
+                <label for="">postcode</label></td>
+             </tr>
+             <tr>
+                <td><label for="">contact</label></td>
+                <td>
+                    <label for="">homephone</label><br>
+                    <input type="number" name="homephone" id="homephone">
+                </td>
+               
+               <td>
+                <label for="">mobilephone</label><br>
+                <input type="number" name="mobilephone" id="mobilephone">
+               </td>
+               
+                <td>
+                    <label for="">E-mail Address</label><br>
+                    <input type="email" name="email" id="email">
+                </td>
+            </td>
+            <tr>
+                <td><label for="">Are you an australian?</label></td>
+                <td><input type="radio" value="yes" id="yes" name="areyouaustralian">
+                  <label for="">yes</label></td>
+                  <td><input type="radio" value="No" id="no" name="areyouaustralian">
+                  <label for="">no</label></td>
+            </tr> 
+            <tr>
+              <td><label for=""> Do You Have A Working Visa?></label></td>
+              <td><input type="radio" value="yes" id="Yes" name="doyouhaveaworkinhgvisa">
+                <label for="">yes</label></td>
+                <td><input type="radio" value="No" id="no" name="doyouhaveaworkinhgvisa">
+                <label for="">no</label></td>
+           </tr>
+           <tr><td><h3>Employment Details</h3></td></tr>
+           <tr>
+            <td><label for="">job title</label></td>
+            <td><input type="text" name="jobtitle" id="jobtitle"></td>
+           </tr>
+           <tr>
+            <td><label for="">Commencement date</label></td>
+            <td><input type="date" name="commencementdate" id="commencementdate"></td>
+           </tr>
+           <tr>
+            <td><label for="">File tax number</label></td>
+            <td><input type="text" name="filetaxnumber" id="filetaxnumber"></td>
+           </tr>
+           <tr>
+              <td><label for="">employment status</label></td>
+              <td colspan="4"><input type="radio" value="fulltime" id="fulltime" name="employeestatus">
+              <label for="">fulltime</label>
+              <input type="radio" value="parttime" id="parttime" name="employeestatus">
+              <label for="">parttime</label>
+              <input type="radio" value="temporary" id="temporary" name="employeestatus">
+              <label for="">parttime</label>
+              <input type="radio" value="casual" id="casual" name="employeestatus">
+              <label for="">casual</label></td>
+           </tr>
+           <tr>
+            <td colspan="2"><h3>Emergency Contact Details</h3></td>
+           </tr>
+           <tr>
+            <td><label for="">name</label></td>
+            <td><select name="title" id="title">
+                <option value=""></option>
+                <option value="">MR</option>
+                <option value="">MISS</option>
+            </select>
+            </td>
+                 <label for="">Title</label>
+            <td>
+                 <input type="text"  name="firstname" id="firstname"><br>
+                 <label for="">Enter first name</label>
+            </td>
+            <td><input type="text" name="middlename" id="middlename"><br>
+                <label for="">Enter middle name</label></td>
+                <td><input type="text"  name="surname" id="surname"><br>
+                <label for="">Enter surname</label></td>
+           </tr>
+           <tr>
+               <td><label for="">Relationship</label></td>
+               <td> <input type="text"  name="relationship" id="relationship"></td>
+            </tr>
+            <tr>
+                <td><label for="">contact</label></td>
+
+                
+                <td>
+                    <label for="">homephone</label><br>
+                    <input type="number" name="homephone" id="homephone">
+                </td>
+               
+               <td>
+                <label for="">mobilephone</label><br>
+                <input type="number" name="mobilephone" id="mobilephone">
+               </td>
+               
+                <td>
+                    <label for="">E-mail Address</label><br>
+                    <input type="email" name="email" id="email">
+                </td>
+                
+            </tr>
+            <tr><td colspan="2"><h3>Banking Details</h3></td></tr>
+            <tr>
+                <td><label for="">Bank</label></td>
+                <td><label for="">Bank name</label><br>
+                <input type="text" name="bankname" id="bankname"></td>
+                <td><label for="">Bank branch</label><br>
+                <input type="text" name="bankbranch" id="bankbranch"></td>
+            </tr>
+            <tr>
+                <td><label for="">Account</label></td>
+                <td><label for="">accountname</label><br>
+                <input type="text" name="accountname" id="accountname"></td>
+                <td><label for="">Account number</label><br>
+                <input type="number" name="accountnumber" id="accountnumber"></td>
+                <td><label for="">BSB number</label><br>
+                <input type="number" name="bsbnumber" id="bsbnumber"></td>
+            </tr>
+            <tr>
+                <td><label for="">Employee Signature</label></td>
+                <td colspan="3"><textarea name="signature" id="signature" cols="90" rows="3" required></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><textarea name="printyourname" id="printyourname" cols="90" rows="1"
+                    placeholder="printyournamehere"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><textarea name="enterdate" id="enterdate" cols="90" rows="1" placeholder="Enter date here"></textarea></td>
+            </tr>
+            <tr>
+                <td><button>SUBMIT</button></td>
+            </tr>
+            <tr>
+                <td><p>*Mandatory fields</p></td>
+            </tr>
+        </table>          
+    </form>
+
+</body>
+</html>
